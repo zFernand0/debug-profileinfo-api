@@ -1,0 +1,16 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "t": "ZOWE_CLI_HOME=./.zowe ZOWE_IMPERATIVE_LOG_LEVEL=DEBUG ZOWE_APP_LOG_LEVEL=ALL node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zowe/imperative": "5.0.0-next.202202232039"
+  }
+}
